@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="go to the Linio.com.co page and enter the Home category and select a product from the mattresses section" tests="2" skipped="2" failures="0" errors="0" timestamp="2022-05-17T02:32:17" hostname="MARIACAMILA" time="0.123">
+  <properties/>
+  <testcase name="Add products to cart" classname="go to the Linio.com.co page and enter the Home category and select a product from the mattresses section" time="0.028">
+    <skipped/>
+  </testcase>
+  <testcase name="Remove products from cart" classname="go to the Linio.com.co page and enter the Home category and select a product from the mattresses section" time="0.006">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
