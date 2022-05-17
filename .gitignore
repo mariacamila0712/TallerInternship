@@ -1,2 +1,4 @@
 #Carpetas
-.idea
+.idea/
+.gradle
+build/

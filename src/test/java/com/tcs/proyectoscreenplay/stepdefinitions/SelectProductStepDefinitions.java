@@ -1,5 +1,6 @@
 package com.tcs.proyectoscreenplay.stepdefinitions;
 
+import com.tcs.proyectoscreenplay.userinterfaces.LinioPage;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -10,6 +11,8 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
 
 public class SelectProductStepDefinitions {
 
+    LinioPage page;
+
     @Before
     public void setUp(){
         OnStage.setTheStage(new OnlineCast());
@@ -18,7 +21,7 @@ public class SelectProductStepDefinitions {
 
     @Given("^the user is in the application (.*)$")
     public void theUserIsInTheApplicationHttpsWwwLinioComCo(String url) {
-        OnStage.theActorInTheSpotlight().wasAbleTo(Open.browserOn());
+        OnStage.theActorInTheSpotlight().wasAbleTo(Open.browserOn(page));
     }
 
     @Given("^the user enters the Home category and selects the Mattresses, Bed Bases and Pillows section$")
@@ -28,7 +31,6 @@ public class SelectProductStepDefinitions {
 
     @When("^the user selects the product (.*)$")
     public void theUserSelectsTheProductSuperMegaComboBlueQueenXSpringMarshall(String product) {
-        OnStage.
 
     }
 
